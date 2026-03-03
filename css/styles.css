@@ -1,0 +1,148 @@
+﻿/*  Palette
+#2C3E50: Dark Blue Gray
+#3498DB: Bright Blue
+#ECF0F1: Light Gray
+#FFFFFF: White
+#34495E: Medium Gray Blue
+*/
+
+/* Global Ones */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #34495E;
+    background-color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.header-section {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.header-section h1,
+.header-section h2 {
+    color: #FFFFFF;
+}
+
+.header-section h2 {
+    color: #3498DB;
+    font-weight: 500;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #3498DB;
+}
+
+.footer-section {
+    background-color: #34495E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-section h2 {
+    color: #3498DB;
+}
+
+.footer-section a {
+    color: #3498DB;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.footer-section a:hover {
+    color: #FFFFFF;
+}
+
+.footer-section div {
+    margin: 20px 0;
+}
+
+.work-experience {
+    background-color: #FFFFFF;
+    border-left: 5px solid #3498DB;
+}
+
+.work-experience h2 {
+    color: #2C3E50;
+}
+
+.work-experience h3 {
+    color: #3498DB;
+}
+
+.job-item {
+    margin-bottom: 30px;
+}
+
+.job-item strong {
+    color: #2C3E50;
+    font-weight: 600;
+}
+
+.job-item ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.job-item li {
+    margin-bottom: 8px;
+}
+
+.education {
+    background-color: #FFFFFF;
+    border-left: 5px solid #2C3E50;
+}
+
+.education h2 {
+    color: #2C3E50;
+}
+
+.education h3 {
+    color: #3498DB;
+}
+
+.school-item {
+    margin-bottom: 20px;
+}
+
+.school-item strong {
+    color: #2C3E50;
+    font-weight: 600;
+}
+
